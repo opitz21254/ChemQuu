@@ -161,10 +161,10 @@
 }
 .center { 
   margin: auto; 
-  width: 50%; 
+  width: 93%; 
   border: 3px solid green; 
   padding: 10px; }
-
+/*this is my footer container*/
   
   .global-footer-bg { margin: auto; width: 50%; border: 3px solid green; padding: 10px; }
 
