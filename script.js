@@ -1,3 +1,18 @@
+// Wait for the DOM to be fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the button by its ID
+    var button = document.getElementById("scrollButton");
+
+    // Add a click event listener to the button
+    button.addEventListener("click", function() {
+        // Get the target element by its ID
+        var targetElement = document.getElementById("w-node-_017b7c48-6c9e-0d51-dfe8-b12fefa50b14-b006e859");
+        
+        // Scroll to the target element
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+    });
+});
+
 document.addEventListener("DOMContentLoaded", function () {
   const options = document.querySelectorAll(".option");
   const contentContainer = document.getElementById("content-container");
