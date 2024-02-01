@@ -1,22 +1,3 @@
-function scrollToElement(elementId) {
-    var element = document.getElementById('w-node-d523f2c3-a156-b008-eaf8-7c2c83df4571-b006e859');
-    if (element) {
-        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-  const options = document.querySelectorAll(".option");
-  const contentContainer = document.getElementById("content-container");
-
-  options.forEach((option) => {
-    option.addEventListener("click", function () {
-      options.forEach((opt) => opt.classList.remove("selected"));
-      this.classList.add("selected");
-      updateContent(this.dataset.option);
-    });
-  });
-
   function updateContent(option) {
     if (option === "medical") {
       contentContainer.innerHTML = "Pre-Clinical / Step 1 , Clinical / Step 2";
