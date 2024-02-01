@@ -3,24 +3,6 @@
 <head>
     <title>ChemQuu - Learning Made Unforgettable</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-  function showDropdown(id) {
-    var dropdown = document.getElementById(id);
-    dropdown.classList.toggle("show");
-  }
-
-  window.onclick = function (event) {
-    if (!event.target.matches(".dropdown-toggle")) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      for (var i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains("show")) {
-          openDropdown.classList.remove("show");
-        }
-      }
-    }
-  };
-</script>
 </head>
 <body>
    <div id="PROGRAM" class="modal-wrapper-register">
@@ -66,15 +48,16 @@
             </div>
         </div>
         <div data-collapse="medium" data-animation="default" data-duration="400" data-doc-height="1" role="banner" class="global-nav_collapsed w-nav">
-          <div class="w-container">
-            <nav role="navigation" class="global-nav_dropdown_item w-nav-menu">
-    
-                
+            <div class="w-container">
+                <a href="#" class="brand-2 w-nav-brand">
+                    <a href="#" class="brand-2 w-nav-brand">
+                        <img src="/trace.svg" loading="lazy" height="28" alt="" class="image"/>
+                    </a>
+                <nav role="navigation" class="global-nav_dropdown_item w-nav-menu">
                     <div class="global-nav_section">MY ChemQuu</div>
                     <a href="#" data-w-id="ac7977d0-114d-d66f-eb7c-a8d2e481fd0e" class="global-nav_dropdown_item modal-trigger w-nav-link">Log In</a>
                     <a href="#" data-w-id="ac7977d0-114d-d66f-eb7c-a8d2e481fd10" class="c-primary-btn is--large modal-trigger w-button">TRY FOR FREE</a>
                     <div class="global-nav_section">EXPLORE</div>
-<!--                     above codes for the mobile site -->
                     <a href="/web/20210504080548/https://www.sketchy.com/explore/medical-pre-clinical" class="global-nav_dropdown_item w-nav-link">Medical Pre-Clinical</a>
                     <a href="/web/20210504080548/https://www.sketchy.com/explore/medical-clinical" class="global-nav_dropdown_item w-nav-link">Medical Clinical</a>
                     <a href="/web/20210504080548/https://www.sketchy.com/explore/mcat" class="global-nav_dropdown_item w-nav-link">MCAT</a>
@@ -84,44 +67,57 @@
                     <div class="global-nav_section">SHOP</div>
                     <a href="https://web.archive.org/web/20210504080548/https://sketchymedical.store/collections/sketchymedical-workbooks" target="_blank" class="global-nav_dropdown_item w-nav-link">Workbooks</a>
                     <a href="https://web.archive.org/web/20210504080548/https://sketchymedical.store/collections/shirts" target="_blank" class="global-nav_dropdown_item w-nav-link">Apparel</a>
-            </nav>
-        <div class="menu-button w-clearfix w-nav-button">
-      <div class="global-nav_hamburger w-icon-nav-menu"></div>
-    </div>
-  </div>
-    <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="global-nav w-nav">
-      <div class="global-nav-bar">
-        <nav class="navbar">
-          <img src="/trace.svg" loading="lazy" height="28" alt="" class="image" />
-                          <div class="dropdown">
-                            <button onclick="showDropdown('explore-menu')" class="dropdown-toggle">Explore</button>
-                            <div id="explore-menu" class="dropdown-content">
-                              <h4>PROGRAMS</h4>
-                              <a href="#">Medical Pre-Clinical</a>
-                              <a href="#">Medical Clinical</a>
-                              <a href="#">MCAT</a>
-                              <a href="#">PA</a>
-                              <a href="#">Pharmacy</a>
-                              <a href="#">Nursing</a>
-                              <h4>EXAMS</h4>
-                              <a href="#">USMLE® Step 1</a>
-                              <a href="#">USMLE® Step 2</a>
-                              <a href="#">MCAT®</a>
-                              <a href="#">PANCE®</a>
-                              <a href="#">PCAT®, NAPLEX®</a>
-                              <a href="#">NCLEX®</a>
+                </nav>
+                <div class="menu-button w-clearfix w-nav-button">
+                    <div class="global-nav_hamburger w-icon-nav-menu"></div>
+                </div>
+            </div>
+        </div>
+        <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="global-nav w-nav">
+            <div class="global-nav-bar">
+                <div class="w-clearfix">
+                    <a href="/web/20210504080548/https://www.sketchy.com/" aria-current="page" class="brand-2 w-nav-brand w--current">
+                        <img src="https://web.archive.org/web/20210504080548im_/https://assets.website-files.com/5ff7c807d65e6f24ae2a3369/600f84f5a837a66242a264a2_sketchy-logo.svg" loading="lazy" height="28" alt="" class="image"/>
+                    </a>
+                    <nav role="navigation" class="global-nav-left w-nav-menu">
+                        <div data-hover="1" data-delay="0" class="dropdown w-dropdown">
+                            <div class="global-nav__dropdown w-dropdown-toggle">
+                                <div class="w-icon-dropdown-toggle"></div>
+                                <div class="nav-dropdown__text">EXPLORE</div>
                             </div>
-                          </div>
-                          <div class="dropdown">
-                            <button onclick="showDropdown('products-menu')" class="dropdown-toggle">Products</button>
-                            <div id="products-menu" class="dropdown-content">
-                              <h4>SHOP</h4>
-                              <a href="#">Workbooks</a>
-                              <a href="#">Apparel</a>
+                            <nav class="dropdown-list w-dropdown-list">
+                                <div class="u-flex is--hor align--top justify--left">
+                                    <div>
+                                        <div class="global-nav_section">PROGRAMS</div>
+                                        <a href="/web/20210504080548/https://www.sketchy.com/explore/medical-pre-clinical" class="global-nav_dropdown_item w-dropdown-link">Medical Pre-Clinical</a>
+                                        <a href="/web/20210504080548/https://www.sketchy.com/explore/medical-clinical" class="global-nav_dropdown_item w-dropdown-link">Medical Clinical</a>
+                                        <a href="/web/20210504080548/https://www.sketchy.com/explore/mcat" class="global-nav_dropdown_item w-dropdown-link">MCAT</a>
+                                        <a href="/web/20210504080548/https://www.sketchy.com/explore/pa" class="global-nav_dropdown_item w-dropdown-link">PA</a>
+                                        <a href="/web/20210504080548/https://www.sketchy.com/explore/pharmacy" class="global-nav_dropdown_item w-dropdown-link">Pharmacy</a>
+                                        <a href="/web/20210504080548/https://www.sketchy.com/explore/nursing" class="global-nav_dropdown_item w-dropdown-link">Nursing</a>
+                                    </div>
+                                    <div>
+                                        <div class="global-nav_section">EXAMS</div>
+                                        <a href="/web/20210504080548/https://www.sketchy.com/explore/medical-pre-clinical" class="global-nav_dropdown_item w-dropdown-link">USMLE® Step 1</a>
+                                        <a href="/web/20210504080548/https://www.sketchy.com/explore/medical-clinical" class="global-nav_dropdown_item w-dropdown-link">USMLE® Step 2</a>
+                                        <a href="/web/20210504080548/https://www.sketchy.com/explore/mcat" class="global-nav_dropdown_item w-dropdown-link">MCAT®</a>
+                                        <a href="/web/20210504080548/https://www.sketchy.com/explore/pa" class="global-nav_dropdown_item w-dropdown-link">PANCE®</a>
+                                        <a href="/web/20210504080548/https://www.sketchy.com/explore/pharmacy" class="global-nav_dropdown_item w-dropdown-link">PCAT®, NAPLEX®</a>
+                                        <a href="/web/20210504080548/https://www.sketchy.com/explore/nursing" class="global-nav_dropdown_item w-dropdown-link">NCLEX®</a>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        <div data-hover="1" data-delay="0" class="w-dropdown">
+                            <div class="global-nav__dropdown w-dropdown-toggle">
+                                <div class="w-icon-dropdown-toggle"></div>
+                                <div class="nav-dropdown__text">PRODUCTS</div>
                             </div>
-                          </div>
-                          <a href="#" class="login-btn">Log In</a>
-                          <a href="#" class="c-primary-btn is--large modal-trigger w-button">Try For Free</a>
+                            <nav class="dropdown-list w-dropdown-list">
+                                <div class="global-nav_section">SHOP</div>
+                                <a href="https://web.archive.org/web/20210504080548/https://sketchymedical.store/collections/sketchymedical-workbooks" target="_blank" class="global-nav_dropdown_item w-dropdown-link">Workbooks</a>
+                                <a href="https://web.archive.org/web/20210504080548/https://sketchymedical.store/collections/shirts" target="_blank" class="global-nav_dropdown_item w-dropdown-link">Apparel</a>
+                            </nav>
                         </div>
                     </nav>
                     <nav role="navigation" class="global-nav-right w-nav-menu">
@@ -130,11 +126,10 @@
                         </a>
                         <a href="#" data-w-id="b24e9a27-7e5a-9df8-012f-b9b8ff49d6e9" class="global-nav-btn modal-trigger w-button">TRY FOR FREE</a>
                     </nav>
-                </nav>
-              </div>
+                </div>
             </div>
-
-            <div class="home-hero-desktop">
+        </div>
+        <div class="home-hero-desktop">
             <div class="w-container">
                 <div class="c-heroheader__top">
                     <h1 class="c-herohome-header">
