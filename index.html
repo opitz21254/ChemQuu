@@ -1136,5 +1136,27 @@
                         </div>
                     </div>
                 </div>
+<!--                 propup -->
+                <script src="script.js"> // script.js
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var popup = document.getElementById('popup');
+                        var triggerPopup = document.getElementById('triggerPopup');
+                        var closeButton = document.querySelector('.close');
+                    
+                        triggerPopup.onclick = function() {
+                            popup.style.display = 'block';
+                        }
+                    
+                        closeButton.onclick = function() {
+                            popup.style.display = 'none';
+                        }
+                    
+                        window.onclick = function(event) {
+                            if (event.target == popup) {
+                                popup.style.display = 'none';
+                            }
+                        }
+                    }); 
+                </script>
             </div>
         </div>
