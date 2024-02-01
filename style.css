@@ -1499,8 +1499,10 @@ textarea.w-input,textarea.w-select {
     bottom: 0;
     margin: auto 20px auto auto;
     width: 1em;
+    color: green;
     height: 1em
 }
+/*I changed the color from absent to green to test it*/
 
 .w-dropdown-list {
     position: absolute;
@@ -2595,8 +2597,10 @@ li {
 
 .nav-dropdown__text {
     font-family: Gotham,sans-serif;
-    font-weight: 700
+    font-weight: 700;
+    color: purple
 }
+/* I changed th color from nothing to purple just to test it*/
 
 .global-nav__dropdown:hover {
     color: #555
