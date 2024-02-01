@@ -1,5 +1,5 @@
 function scrollToElement(elementId) {
-    var element = document.getElementById(w-node-d523f2c3-a156-b008-eaf8-7c2c83df4571-b006e859);
+    var element = document.getElementById('w-node-d523f2c3-a156-b008-eaf8-7c2c83df4571-b006e859');
     if (element) {
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
