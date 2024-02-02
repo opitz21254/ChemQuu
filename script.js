@@ -1,6 +1,7 @@
 // Get the elements
-let exploreTab = document.getElementById('explore');
-let dropdownMenu = document.getElementById('dropdown');
+let exploreTab = document.querySelector('.nav-dropdown__text');
+let dropdownMenu = document.querySelector('.global-nav_section');
+dropdownMenu.style.display = 'none'; // Initially hide the dropdown
 
 // Add event listeners
 exploreTab.addEventListener('mouseover', function() {
