@@ -1,28 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>ChemQuu - Learning Made Unforgettable</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-</head>
-<body>
-    <div id="header">
-        <img src="trace.svg" id="logo">
-        <div class="dropdown">
-            <button class="dropbtn">Explore</button>
-            <div class="dropdown-content" id="explore">
-                <!-- options go here -->
-            </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">Products</button>
-            <div class="dropdown-content" id="products">
-                <!-- options go here -->
-            </div>
-        </div>
-        <button id="login">Log In</button>
-        <button id="try-for-free">Try For Free</button>
-    </div>
-    <!-- rest of your code -->
-</body>
-</html>
+document.getElementById('try-for-free').addEventListener('click', function() {
+    // code to show the popup menu goes here
+    alert('Try For Free button clicked');
+});
+
+// example code to populate the 'Explore' and 'Products' dropdowns
+var exploreDropdown = document.getElementById('explore');
+var exploreOptions = ['Medical Pre-Clinical', 'Medical Clinical', 'MCAT', 'PA', 'Pharmacy', 'Nursing', 'USMLE® Step 1', 'USMLE® Step 2', 'MCAT®', 'PANCE®', 'PCAT®, NAPLEX®', 'NCLEX®'];
+
+for (var i = 0; i < exploreOptions.length; i++) {
+    var option = document.createElement('a');
+    option.href = '#';
+    option.textContent = exploreOptions[i];
+    exploreDropdown.appendChild(option);
+}
+
+var productsDropdown = document.getElementById('products');
+var productOptions = ['Workbooks', 'Apparel'];
+
+for (var i = 0; i < productOptions.length; i++) {
+    var option = document.createElement('a');
+    option.href = '#';
+    option.textContent = productOptions[i];
+    productsDropdown.appendChild(option);
+}
