@@ -1,210 +1,28 @@
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  padding: 10px 20px;
-}
-
-/* Navbar logo */
-.navbar .image {
-  max-height: 40px;
-}
-
-/* Dropdown */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown button */
-.dropdown-toggle {
-  background-color: #333;
-  color: white;
-  border: none;
-  font-size: 16px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.dropdown-toggle:hover {
-  background-color: #555;
-}
-
-/* Dropdown content */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content h4 {
-  padding: 8px 16px;
-  background-color: #eee;
-  margin: 0;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown content when the class is added */
-.show {
-  display: block;
-}
-
-/* Log In button */
-.login-btn {
-  background-color: #333;
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  border: none;
-  font-size: 16px;
-}
-
-.login-btn:hover {
-  background-color: #555;
-}
-
-/* Try For Free button */
-.try-for-free-btn {
-  background-color: #4CAF50;
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  border: none;
-  font-size: 16px;
-}
-
-.try-for-free-btn:hover {
-  background-color: #45a049;
-}
-
 
 
 /* Additional CSS */
-.
-.rstep1 {
-  background-color: lightblue;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-}
 
-.rstep2 {
-  background-color: white;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-}
-
-.rmcat {
-  background-color: lightblue;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-}
-.rpa {
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-}
-.rpharmacy {
-  background-color: lightblue;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-}
-.rnursing {
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-}
-
-/*Making my own popup*/
-/* style.css */
-.popup {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-}
-
-.popup-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    max-width: 450px;
-}
-
-.close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-/* end popup css */
-
+rstep1,
+.rstep2,
+.rmcat,
+.rpa,
+.rpharmacy,
+.rnursing,
 .rchemistry {
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-}
-.rnursing {
-  background-color: lightblue;
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-}
-
-.content-container {
-  width: 100%;
-  max-width: 800px;
-  text-align: center;
-  color: white;
-}
-
-.choose-your-learning-program {
+  width: 75%;
   margin: auto;
-  width: 50%;
-  padding: 10px;
-  text-align: center;
-  font-weight: bolder;
-  border: 3px || dotted || green;
+  margin-bottom: 1in;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
 }
+
 .center { 
   margin: auto; 
   width: 93%; 
-  border: 3px solid green; 
+  border: 3px solid purple; 
   padding: 10px; }
-/*this is my footer container*/
+/*this is my footer container 1-2-24 changed to purple*/
   
   .global-footer-bg { margin: auto; width: 50%; border: 3px solid green; padding: 10px; }
 
