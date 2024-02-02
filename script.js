@@ -2,8 +2,7 @@ window.onload = function() {
     // "Explore" dropdown
     var exploreDropdown = document.getElementById('explore');
     var exploreOptions = [
-        'Medical Pre-Clinical', 'Medical Clinical', 'MCAT', 'PA', 'Pharmacy', 'Nursing', 
-        'USMLE® Step 1', 'USMLE® Step 2', 'MCAT®', 'PANCE®', 'PCAT®, NAPLEX®', 'NCLEX®'
+        'Medical Pre-Clinical', 'Medical Clinical', 'MCAT', 'PA', 'Pharmacy', 'Nursing'
     ];
 
     exploreOptions.forEach(function(option) {
