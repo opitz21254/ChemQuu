@@ -738,10 +738,11 @@ textarea.w-input,textarea.w-select {
     margin-bottom: 10px
 }
 
+/*I changed opacity from 0 to 1 as a test*/
 .w-file-upload-input {
     width: .1px;
     height: .1px;
-    opacity: 0;
+    opacity: 1;
     overflow: hidden;
     position: absolute;
     z-index: -100
@@ -1575,6 +1576,62 @@ textarea.w-input,textarea.w-select {
     }
 }
 
+/*I changed opacity from 0 to 1 as a test*/
+/* GPT note: Sure, let's break down each line of this CSS code:
+.w-lightbox-backdrop {
+This is a CSS selector for HTML elements with the class of w-lightbox-backdrop.
+cursor: auto;
+This line sets the type of cursor when you hover over the element to be the default cursor as defined by the browser/OS.
+font-style: normal;
+font-variant: normal;
+letter-spacing: normal;
+list-style: disc;
+text-indent: 0;
+text-shadow: none;
+text-transform: none;
+visibility: visible;
+white-space: normal;
+word-break: normal;
+word-spacing: normal;
+word-wrap: normal;
+These lines resets various text and layout properties to their normal values.
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+This makes the element cover the entire viewport, regardless of scrolling. It's often used for modal or lightbox backdrops.
+color: #fff;
+This line sets the color of the text to white.
+font-family: "Helvetica Neue",Helvetica,Ubuntu,"Segoe UI",Verdana,sans-serif;
+This sets the font of the text. The browser will use the first font in this list that is installed on the system.
+font-size: 17px;
+This sets the size of the text to 17 pixels.
+line-height: 1.2;
+This sets the distance between lines of text. The value is a multiple of the font size, so the line-height will be 1.2 times the size of the font.
+font-weight: 300;
+This sets the thickness of the text to a light weight.
+text-align: center;
+This centers the text within the element.
+background: rgba(0,0,0,.9);
+This sets the background color to semi-transparent black.
+z-index: 2000;
+This sets the stack order of the element. An element with greater stack order is always in front of an element with a lower stack order.
+outline: 0;
+This removes the outline around the element.
+opacity: 0;
+This hides the element by making it fully transparent.
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+These prevent the user from selecting text in this element in various browsers.
+-webkit-tap-highlight-color: transparent;
+This makes the tap highlight color transparent on iOS and some Android devices.
+-webkit-transform: translate(0,0)
+This is a 2D transform method that repositions an element in the horizontal and/or vertical directions. Here, it's set to not move the element at all.
+}
+This closes the CSS rules for the .w-lightbox-backdrop selector.*/
+
 .w-lightbox-backdrop {
     cursor: auto;
     font-style: normal;
@@ -1603,12 +1660,12 @@ textarea.w-input,textarea.w-select {
     background: rgba(0,0,0,.9);
     z-index: 2000;
     outline: 0;
-    opacity: 0;
+    opacity: 1; /* Updated this line */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-tap-highlight-color: transparent;
-    -webkit-transform: translate(0,0)
+    -webkit-transform: translate(0,0);
 }
 
 .w-lightbox-backdrop,.w-lightbox-container {
@@ -1623,11 +1680,12 @@ textarea.w-input,textarea.w-select {
     overflow: hidden
 }
 
+/* I changed this opacity value from 0 to 1*/
 .w-lightbox-view {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    opacity: 0
+    opacity: 1
 }
 
 .w-lightbox-view:before {
@@ -1852,9 +1910,9 @@ textarea.w-input,textarea.w-select {
         opacity: 1
     }
 }
-
+/*I changed opacity from 0 to 1 as a test*/
 .w-lightbox-inactive,.w-lightbox-inactive:hover {
-    opacity: 0
+    opacity: 1
 }
 
 .w-richtext:after,.w-richtext:before {
@@ -2606,10 +2664,10 @@ li {
 .home-hero-desktop {
     max-height: 625px;
     padding-top: 50px;
-    background-image: url("https://web.archive.org/web/20210513004155im_/https://assets.website-files.com/5ff7c807d65e6f24ae2a3369/6068d3f8a7e782bc3d2fdf0e_Home-Headers4.jpg");
+    background-image: url("Sketch_Header_to_Copy.jpg");
     background-position: 0 0;
     background-size: cover;
-    text-align: left
+    text-align: left;
 }
 
 .global-nav {
@@ -3121,9 +3179,10 @@ li {
     color: #969696
 }
 
+/*I changed opacity from 0 to 1 as a test*/
 .dropdown-list {
     background-color: #fff;
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: opacity .2s;
     transition: opacity .2s
 }
@@ -3681,9 +3740,10 @@ li {
     display: none
 }
 
+/*I changed opacity from 0 to 1 as a test*/
 .modal-wrapper.display--hide {
     display: none;
-    opacity: 0
+    opacity: 1
 }
 
 .modal {
