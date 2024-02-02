@@ -1,13 +1,5 @@
-// Get the elements
-let exploreTab = document.querySelector('.nav-dropdown__text');
-let dropdownMenu = document.querySelector('.global-nav_section');
-dropdownMenu.style.display = 'none'; // Initially hide the dropdown
+// Get the dropdown menu element
+let dropdownMenu = document.querySelector('#w-dropdown-list-1 > div');
 
-// Add event listeners
-exploreTab.addEventListener('mouseover', function() {
-  dropdownMenu.style.display = 'block';
-});
-
-exploreTab.addEventListener('mouseout', function() {
-  dropdownMenu.style.display = 'none';
-});
+// Make the dropdown menu always visible
+dropdownMenu.style.display = 'block';
