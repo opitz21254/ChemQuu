@@ -79,7 +79,7 @@ rstep1,
   padding: 10px; }
 /*this is my footer container 1-2-24 changed to purple*/
   
-  .global-footer-bg { margin: auto; width: 50%; border: 3px solid green; padding: 10px; }
+  .global-footer-bg { margin: auto; width: 80%; border: 3px solid navy; padding: 10px; }
 
 
 
@@ -2557,7 +2557,9 @@ li {
     -ms-flex-pack: center;
     justify-content: center;
     background-color: #fff;
-    box-shadow: 0 2px 15px 0 rgba(0,0,0,.1)
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.1);
+    background-color: red;
+    z-index: 9999999
 }
 
 .brand-2 {
@@ -2565,7 +2567,9 @@ li {
 }
 
 .global-nav-left {
-    float: left
+    float: left;
+    background-color:gold;
+    z-index: 9999999
 }
 
 .nav-dropdown__text {
@@ -3092,7 +3096,7 @@ li {
     font-size: 12px;
     line-height: 14px;
     font-weight: 500;
-    letter-spacing: 1px
+    letter-spacing: 1px;
     z-index:9999999
 }
 
@@ -5247,6 +5251,7 @@ li {
     }
 
     .global-nav_dropdown_item {
+        z-index: 9999999
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
