@@ -6,57 +6,6 @@
     display: none !important;
 }
 
-.dropdown-content {
-    border-radius: 6px; 
-    display: flex;
-    display: none;
-    position: absolute;
-    background-color: purple;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    text-decoration: none;
-    display: block;
-    margin: 10px 0;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropbtn {
-    position: relative;
-    vertical-align: top;
-    text-decoration: none;
-    color: #222;
-    padding: 20px;
-    text-align: left;
-    white-space: nowrap;
-    background-color: #fff;
-    font-weight: 1000;
-    border:none;
-    font-size: 1.4em;
-}
-
-#try-for-free {
-    margin: 11px 24px 11px 16px;
-    padding-right: 24px;
-    padding-left: 24px;
-    border-radius: 40px;
-    background-color: #00a28c;
-    -webkit-transition: background-color .2s;
-    transition: background-color .2s;
-    font-family: Gotham,sans-serif;
-    color: #fff;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
 /* Additional CSS */
 
 rstep1,
@@ -81,7 +30,7 @@ rstep1,
   padding: 10px; }
 /*this is my footer container 1-2-24 changed to purple*/
   
-  .global-footer-bg { margin: auto; width: 100%; border: none; padding: 10px; }
+  .global-footer-bg { margin: auto; width: 50%; border: 3px solid green; padding: 10px; }
 
 
 
@@ -1379,8 +1328,7 @@ textarea.w-input,textarea.w-select {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    background-color: green;
-    z-index: 9999999
+    z-index: 900
 }
 
 .w-dropdown-btn,.w-dropdown-link,.w-dropdown-toggle {
@@ -1416,7 +1364,7 @@ textarea.w-input,textarea.w-select {
     bottom: 0;
     margin: auto 20px auto auto;
     width: 1em;
-    color: #555;
+    color: green;
     height: 1em
 }
 /*I changed the color from absent to green to test it*/
@@ -1425,15 +1373,11 @@ textarea.w-input,textarea.w-select {
     position: absolute;
     background: #ddd;
     display: none;
-    min-width: 100%;
-    background-color: brown;
-    z-index: 9999999999
+    min-width: 100%
 }
 
 .w-dropdown-list.w--open {
     display: block
-    background-color: orange;
-    z-index: 999999999999
 }
 
 .w-dropdown-link {
@@ -2054,13 +1998,11 @@ This closes the CSS rules for the .w-lightbox-backdrop selector.*/
 }
 
 .w--nav-dropdown-open,.w--nav-dropdown-toggle-open,.w-nav[data-collapse=all] .w-nav-button {
-    display: block;
+    display: block
 }
 
 .w--nav-dropdown-list-open {
-    position: static;
-    background-color: green;
-    z-index: 9999999
+    position: static
 }
 
 @media screen and (max-width: 991px) {
@@ -2572,12 +2514,13 @@ li {
 }
 
 .global-nav-left {
-    float: left;
+    float: left
 }
 
 .nav-dropdown__text {
     font-family: Gotham,sans-serif;
     font-weight: 700;
+    color: purple
 }
 /* I changed th color from nothing to purple just to test it*/
 
@@ -2587,7 +2530,6 @@ li {
 
 .global-nav__dropdown.w--open {
     background-color: #fff
-    z-index: 9999999
 }
 
 .c-hero_cta {
@@ -2608,9 +2550,7 @@ li {
 }
 
 .global-nav-right {
-    float: right;
-    background-color: orange;
-    z-index: 9999999999
+    float: right
 }
 
 .global-nav-btn {
@@ -2836,9 +2776,7 @@ li {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center;
-    background-color: gold;
-    z-index: 99999999999999
+    align-items: center
 }
 
 .u-flex.is--hor {
@@ -2846,36 +2784,28 @@ li {
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
-    flex-direction: row;
-    background-color: gold;
-    z-index: 99999999999999
+    flex-direction: row
 }
 
 .u-flex.is--hor.align--top {
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
-    align-items: flex-start;
-    background-color: gold;
-    z-index: 99999999999999
+    align-items: flex-start
 }
 
 .u-flex.is--hor.align--top.justify--left {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
-    justify-content: flex-start;
-    background-color: gold;
-    z-index: 99999999999999
+    justify-content: flex-start
 }
 
 .u-flex.is--hor.align--bottom {
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
-    align-items: flex-end;
-    background-color: gold;
-    z-index: 99999999999999
+    align-items: flex-end
 }
 
 .u-flex.is--ver {
@@ -2901,27 +2831,21 @@ li {
     align-self: center;
     -webkit-transform: translate(0,0);
     -ms-transform: translate(0,0);
-    transform: translate(0,0);
-    background-color: gold;
-    z-index: 99999999999999
+    transform: translate(0,0)
 }
 
 .u-flex.is--ver.align--left {
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
-    align-items: flex-start;
-    background-color: gold;
-    z-index: 99999999999999
+    align-items: flex-start
 }
 
 .u-flex.is--ver.sizing--grow {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
-    flex: 1;
-    background-color: gold;
-    z-index: 99999999999999
+    flex: 1
 }
 
 .c-home_features {
@@ -3068,9 +2992,7 @@ li {
     background-color: #fff;
     font-family: Gotham,sans-serif;
     font-size: 16px;
-    font-weight: 500;
-    background-color: green;
-    z-index: 9999999
+    font-weight: 500
 }
 
 .global-nav_dropdown_item:hover {
@@ -3083,11 +3005,10 @@ li {
 
 /*I changed opacity from 0 to 1 as a test*/
 .dropdown-list {
+    background-color: #fff;
     opacity: 1;
     -webkit-transition: opacity .2s;
-    transition: opacity .2s;
-    background-color: green;
-    z-index: 9999999
+    transition: opacity .2s
 }
 
 .dropdown-list.w--open {
@@ -3112,16 +3033,14 @@ li {
     background-color: #fff
 }
 
-/* edit color from color: #0e75dd; */
 .global-nav_section {
     padding: 10px 20px;
     font-family: Gotham,sans-serif;
-    color: purple;
+    color: #0e75dd;
     font-size: 12px;
     line-height: 14px;
     font-weight: 500;
-    letter-spacing: 1px;
-    z-index:9999999
+    letter-spacing: 1px
 }
 
 .text-weight.is--500 {
@@ -3566,9 +3485,7 @@ li {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center;
-    background-color: gold;
-    z-index: 99999999999999
+    align-items: center
 }
 
 .c-home_testimonial_entry {
@@ -5289,9 +5206,7 @@ li {
         -webkit-box-align: center;
         -webkit-align-items: center;
         -ms-flex-align: center;
-        align-items: center;
-        background-color: green;
-        z-index: 9999999
+        align-items: center
     }
 
     .global-nav_dropdown_item.modal-trigger {
@@ -6146,9 +6061,7 @@ li {
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
-        flex-direction: column;
-    background-color: gold;
-    z-index: 99999999999999
+        flex-direction: column
     }
 
     .c-home_features {
@@ -6383,9 +6296,7 @@ li {
         color: #3067b9;
         font-size: 16px;
         font-weight: 500;
-        text-align: center;
-        background-color: green;
-        z-index: 9999999
+        text-align: center
     }
 
     .c-program_course {
@@ -8128,3 +8039,4 @@ playback timings (ms):
 */
 
 /* Add the rest of your CSS styles as needed */
+
