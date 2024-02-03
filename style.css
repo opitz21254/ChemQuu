@@ -2573,8 +2573,6 @@ li {
 
 .global-nav-left {
     float: left;
-    background-color:orange;
-    z-index: 9999999
 }
 
 .nav-dropdown__text {
@@ -2612,7 +2610,9 @@ li {
 }
 
 .global-nav-right {
-    float: right
+    float: right;
+    background-color: orange;
+    z-index: 9999999
 }
 
 .global-nav-btn {
