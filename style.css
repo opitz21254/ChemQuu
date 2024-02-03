@@ -1422,7 +1422,7 @@ textarea.w-input,textarea.w-select {
     background: #ddd;
     display: none;
     min-width: 100%;
-    background-color: gold;
+    background-color: brown;
     z-index: 9999999999
 }
 
