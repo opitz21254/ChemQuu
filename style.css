@@ -1,10 +1,6 @@
-.dropdown {
-    position: relative;
-    display: inline-block;
-    background-color: green;
-    z-index: 9999999
+.dropdown .dropdown-list {
+    display: block !important; 
 }
-
 
 .dropdown-content {
     border-radius: 6px; 
