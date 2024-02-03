@@ -1,4 +1,6 @@
-green*/
+.dropdown .dropdown-list {
+    display: block !important; 
+}
 
 .global-nav-btn:hover {
     background-color: green;
