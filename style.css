@@ -2047,9 +2047,9 @@ This closes the CSS rules for the .w-lightbox-backdrop selector.*/
 }
 
 .w--nav-dropdown-open,.w--nav-dropdown-toggle-open,.w-nav[data-collapse=all] .w-nav-button {
-    display: block
-    color: gold
-    z-index:9999999
+    display: block;
+    color: gold;
+    z-index:99999999
 }
 
 .w--nav-dropdown-list-open {
@@ -2557,9 +2557,7 @@ li {
     -ms-flex-pack: center;
     justify-content: center;
     background-color: #fff;
-    box-shadow: 0 2px 15px 0 rgba(0,0,0,.1);
-    background-color: red;
-    z-index: 9999999
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.1)
 }
 
 .brand-2 {
@@ -2568,7 +2566,7 @@ li {
 
 .global-nav-left {
     float: left;
-    background-color:gold;
+    background-color:orange;
     z-index: 9999999
 }
 
