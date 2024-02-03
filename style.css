@@ -159,22 +159,9 @@
   color: white;
 }
 
-.choose-your-learning-program {
-  margin: auto;
-  width: 50%;
-  padding: 10px;
-  text-align: center;
-  font-weight: bolder;
-  border: 3px || dotted || green;
-}
-.center { 
-  margin: auto; 
-  width: 50%; 
-  border: 3px solid green; 
-  padding: 10px; }
 
-  
-  .global-footer-bg { margin: auto; width: 50%; border: 3px solid green; padding: 10px; }
+
+  .global-footer-bg { margin: auto; width: 100%; border: none; padding: 10px; }
 
 
 
