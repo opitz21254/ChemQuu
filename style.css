@@ -2980,11 +2980,10 @@ hover {
 }
 /* this is what is inside dropdown menue */
 .global-nav_dropdown_item {
-    background-color: teal;
+    background-color: #fff;
     font-family: Gotham,sans-serif;
     font-size: 16px;
     font-weight: 500;
-    border-radius: 12px
 }
 
 .global-nav_dropdown_item:hover {
