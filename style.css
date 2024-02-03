@@ -1426,12 +1426,14 @@ textarea.w-input,textarea.w-select {
     background: #ddd;
     display: none;
     min-width: 100%;
-    background-color: blue;
-    z-index: 9999999
+    background-color: gold;
+    z-index: 9999999999
 }
 
 .w-dropdown-list.w--open {
     display: block
+    background-color: orange;
+    z-index: 999999999999
 }
 
 .w-dropdown-link {
