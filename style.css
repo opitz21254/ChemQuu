@@ -2987,9 +2987,9 @@ li {
     -ms-transform: translate(0,-3px);
     transform: translate(0,-3px)
 }
-
+/* I changed background color to teal from #fff */
 .global-nav_dropdown_item {
-    background-color: #fff;
+    background-color: teal;
     font-family: Gotham,sans-serif;
     font-size: 16px;
     font-weight: 500
