@@ -2612,7 +2612,7 @@ li {
 .global-nav-right {
     float: right;
     background-color: orange;
-    z-index: 9999999
+    z-index: 9999999999
 }
 
 .global-nav-btn {
