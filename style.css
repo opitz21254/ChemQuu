@@ -1402,9 +1402,7 @@ textarea.w-input,textarea.w-select {
     user-select: none;
     display: inline-block;
     cursor: pointer;
-    padding-right: 40px;
-    background-color: red;
-    z-index: 9999999
+    padding-right: 40px
 }
 
 .w-dropdown-toggle:focus {
@@ -2578,7 +2576,7 @@ li {
 .nav-dropdown__text {
     font-family: Gotham,sans-serif;
     font-weight: 700;
-    background-color: green;
+    background-color: orange;
     z-index: 9999999
 }
 /* I changed th color from nothing to purple just to test it*/
