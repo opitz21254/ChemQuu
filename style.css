@@ -79,7 +79,7 @@ rstep1,
   padding: 10px; }
 /*this is my footer container 1-2-24 changed to purple*/
   
-  .global-footer-bg { margin: auto; width: 80%; border: 3px solid navy; padding: 10px; }
+  .global-footer-bg { margin: auto; width: 80%; border: none; padding: 10px; }
 
 
 
