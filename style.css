@@ -1,9 +1,5 @@
-.dropdown:hover .dropdown-list {
-    display: block !important;
-}
-
 .dropdown .dropdown-list {
-    display: none !important;
+    display: block !important; 
 }
 
 
