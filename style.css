@@ -2048,6 +2048,8 @@ This closes the CSS rules for the .w-lightbox-backdrop selector.*/
 
 .w--nav-dropdown-open,.w--nav-dropdown-toggle-open,.w-nav[data-collapse=all] .w-nav-button {
     display: block
+    color: gold
+    z-index:9999999
 }
 
 .w--nav-dropdown-list-open {
