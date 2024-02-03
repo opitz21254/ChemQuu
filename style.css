@@ -2978,12 +2978,13 @@ hover {
     -ms-transform: translate(0,-3px);
     transform: translate(0,-3px)
 }
-/* I changed background color to teal from #fff */
+/* this is what is inside dropdown menue */
 .global-nav_dropdown_item {
     background-color: teal;
     font-family: Gotham,sans-serif;
     font-size: 16px;
-    font-weight: 500
+    font-weight: 500;
+    border-radius: 12px
 }
 
 .global-nav_dropdown_item:hover {
