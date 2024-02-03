@@ -6,29 +6,173 @@
     display: none !important;
 }
 
-/* Additional CSS */
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
 
-rstep1,
-.rstep2,
-.rmcat,
-.rpa,
-.rpharmacy,
-.rnursing,
-.rchemistry {
-  width: 75%;
-  margin: auto;
-  margin-bottom: 1in;
+/* Navbar logo */
+.navbar .image {
+  max-height: 40px;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button */
+.dropdown-toggle {
+  background-color: #333;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dropdown-toggle:hover {
+  background-color: #555;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content h4 {
+  padding: 8px 16px;
+  background-color: #eee;
+  margin: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content when the class is added */
+.show {
+  display: block;
+}
+
+/* Log In button */
+.login-btn {
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+}
+
+.login-btn:hover {
+  background-color: #555;
+}
+
+/* Try For Free button */
+.try-for-free-btn {
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+}
+
+.try-for-free-btn:hover {
+  background-color: #45a049;
+}
+
+
+
+/* Additional CSS */
+.
+.rstep1 {
+  background-color: lightblue;
   padding: 20px 0;
   display: flex;
   justify-content: center;
 }
 
+.rstep2 {
+  background-color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.rmcat {
+  background-color: lightblue;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.rpa {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.rpharmacy {
+  background-color: lightblue;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.rnursing {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.rchemistry {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.rnursing {
+  background-color: lightblue;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  color: white;
+}
+
+.choose-your-learning-program {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+  border: 3px || dotted || green;
+}
 .center { 
   margin: auto; 
-  width: 93%; 
-  border: 3px solid purple; 
+  width: 50%; 
+  border: 3px solid green; 
   padding: 10px; }
-/*this is my footer container 1-2-24 changed to purple*/
+
   
   .global-footer-bg { margin: auto; width: 50%; border: 3px solid green; padding: 10px; }
 
@@ -562,11 +706,10 @@ textarea.w-input,textarea.w-select {
     margin-bottom: 10px
 }
 
-/*I changed opacity from 0 to 1 as a test*/
 .w-file-upload-input {
     width: .1px;
     height: .1px;
-    opacity: 1;
+    opacity: 0;
     overflow: hidden;
     position: absolute;
     z-index: -100
@@ -1364,10 +1507,8 @@ textarea.w-input,textarea.w-select {
     bottom: 0;
     margin: auto 20px auto auto;
     width: 1em;
-    color: green;
     height: 1em
 }
-/*I changed the color from absent to green to test it*/
 
 .w-dropdown-list {
     position: absolute;
@@ -1400,62 +1541,6 @@ textarea.w-input,textarea.w-select {
     }
 }
 
-/*I changed opacity from 0 to 1 as a test*/
-/* GPT note: Sure, let's break down each line of this CSS code:
-.w-lightbox-backdrop {
-This is a CSS selector for HTML elements with the class of w-lightbox-backdrop.
-cursor: auto;
-This line sets the type of cursor when you hover over the element to be the default cursor as defined by the browser/OS.
-font-style: normal;
-font-variant: normal;
-letter-spacing: normal;
-list-style: disc;
-text-indent: 0;
-text-shadow: none;
-text-transform: none;
-visibility: visible;
-white-space: normal;
-word-break: normal;
-word-spacing: normal;
-word-wrap: normal;
-These lines resets various text and layout properties to their normal values.
-position: fixed;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-This makes the element cover the entire viewport, regardless of scrolling. It's often used for modal or lightbox backdrops.
-color: #fff;
-This line sets the color of the text to white.
-font-family: "Helvetica Neue",Helvetica,Ubuntu,"Segoe UI",Verdana,sans-serif;
-This sets the font of the text. The browser will use the first font in this list that is installed on the system.
-font-size: 17px;
-This sets the size of the text to 17 pixels.
-line-height: 1.2;
-This sets the distance between lines of text. The value is a multiple of the font size, so the line-height will be 1.2 times the size of the font.
-font-weight: 300;
-This sets the thickness of the text to a light weight.
-text-align: center;
-This centers the text within the element.
-background: rgba(0,0,0,.9);
-This sets the background color to semi-transparent black.
-z-index: 2000;
-This sets the stack order of the element. An element with greater stack order is always in front of an element with a lower stack order.
-outline: 0;
-This removes the outline around the element.
-opacity: 0;
-This hides the element by making it fully transparent.
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-These prevent the user from selecting text in this element in various browsers.
--webkit-tap-highlight-color: transparent;
-This makes the tap highlight color transparent on iOS and some Android devices.
--webkit-transform: translate(0,0)
-This is a 2D transform method that repositions an element in the horizontal and/or vertical directions. Here, it's set to not move the element at all.
-}
-This closes the CSS rules for the .w-lightbox-backdrop selector.*/
-
 .w-lightbox-backdrop {
     cursor: auto;
     font-style: normal;
@@ -1484,12 +1569,12 @@ This closes the CSS rules for the .w-lightbox-backdrop selector.*/
     background: rgba(0,0,0,.9);
     z-index: 2000;
     outline: 0;
-    opacity: 1; /* Updated this line */
+    opacity: 0;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-tap-highlight-color: transparent;
-    -webkit-transform: translate(0,0);
+    -webkit-transform: translate(0,0)
 }
 
 .w-lightbox-backdrop,.w-lightbox-container {
@@ -1504,12 +1589,11 @@ This closes the CSS rules for the .w-lightbox-backdrop selector.*/
     overflow: hidden
 }
 
-/* I changed this opacity value from 0 to 1*/
 .w-lightbox-view {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    opacity: 1
+    opacity: 0
 }
 
 .w-lightbox-view:before {
@@ -1734,9 +1818,9 @@ This closes the CSS rules for the .w-lightbox-backdrop selector.*/
         opacity: 1
     }
 }
-/*I changed opacity from 0 to 1 as a test*/
+
 .w-lightbox-inactive,.w-lightbox-inactive:hover {
-    opacity: 1
+    opacity: 0
 }
 
 .w-richtext:after,.w-richtext:before {
@@ -2488,10 +2572,10 @@ li {
 .home-hero-desktop {
     max-height: 625px;
     padding-top: 50px;
-    background-image: url("Sketch_Header_to_Copy.jpg");
+    background-image: url("https://web.archive.org/web/20210513004155im_/https://assets.website-files.com/5ff7c807d65e6f24ae2a3369/6068d3f8a7e782bc3d2fdf0e_Home-Headers4.jpg");
     background-position: 0 0;
     background-size: cover;
-    text-align: left;
+    text-align: left
 }
 
 .global-nav {
@@ -2519,10 +2603,8 @@ li {
 
 .nav-dropdown__text {
     font-family: Gotham,sans-serif;
-    font-weight: 700;
-    color: purple
+    font-weight: 700
 }
-/* I changed th color from nothing to purple just to test it*/
 
 .global-nav__dropdown:hover {
     color: #555
@@ -2566,10 +2648,9 @@ li {
     font-weight: 500;
     text-transform: uppercase
 }
-/*as a test I changed the color of the .global-nav-btn aka "try for free" from #00b49c to green*/
 
 .global-nav-btn:hover {
-    background-color: green;
+    background-color: #00b49c
 }
 
 .global-nav-link {
@@ -2581,9 +2662,9 @@ li {
     font-weight: 700;
     text-decoration: none
 }
-/*as a test I changed the color of the .global-nav-link aka "log in" from #555 to purple*/
+
 .global-nav-link:hover {
-    color: purple
+    color: #555
 }
 
 .u-align-center {
@@ -2621,7 +2702,6 @@ li {
 .c-program_image {
     padding-right: 8px
 }
-/*program_image is the little microscope, stethascope, etc*/
 
 .c-program_stats {
     padding: 50px;
@@ -2987,9 +3067,9 @@ li {
     -ms-transform: translate(0,-3px);
     transform: translate(0,-3px)
 }
-/* I changed background color to teal from #fff */
+
 .global-nav_dropdown_item {
-    background-color: teal;
+    background-color: #fff;
     font-family: Gotham,sans-serif;
     font-size: 16px;
     font-weight: 500
@@ -3003,10 +3083,9 @@ li {
     color: #969696
 }
 
-/*I changed opacity from 0 to 1 as a test*/
 .dropdown-list {
     background-color: #fff;
-    opacity: 1;
+    opacity: 0;
     -webkit-transition: opacity .2s;
     transition: opacity .2s
 }
@@ -3564,10 +3643,9 @@ li {
     display: none
 }
 
-/*I changed opacity from 0 to 1 as a test*/
 .modal-wrapper.display--hide {
     display: none;
-    opacity: 1
+    opacity: 0
 }
 
 .modal {
@@ -8017,26 +8095,4 @@ li {
     font-style: italic;
     font-display: swap;
 }
-
-/*
-     FILE ARCHIVED ON 00:41:55 May 13, 2021 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:35:25 Feb 01, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.087
-  exclusion.robots.policy: 0.076
-  cdx.remote: 0.104
-  esindex: 0.009
-  LoadShardBlock: 339.704 (6)
-  PetaboxLoader3.datanode: 372.979 (7)
-  load_resource: 173.706
-  PetaboxLoader3.resolve: 92.087
-*/
-
-/* Add the rest of your CSS styles as needed */
 
