@@ -1403,7 +1403,7 @@ textarea.w-input,textarea.w-select {
     display: inline-block;
     cursor: pointer;
     padding-right: 40px;
-    background-color: green;
+    background-color: red;
     z-index: 9999999
 }
 
@@ -1428,7 +1428,7 @@ textarea.w-input,textarea.w-select {
     background: #ddd;
     display: none;
     min-width: 100%;
-    background-color: green;
+    background-color: blue;
     z-index: 9999999
 }
 
