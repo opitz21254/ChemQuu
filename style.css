@@ -2578,8 +2578,6 @@ li {
 .nav-dropdown__text {
     font-family: Gotham,sans-serif;
     font-weight: 700;
-    background-color: orange;
-    z-index: 9999999
 }
 /* I changed th color from nothing to purple just to test it*/
 
