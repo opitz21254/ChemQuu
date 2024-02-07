@@ -22,6 +22,10 @@ window.onload = function() {
         productsDropdown.appendChild(a);
     });
 
+    $(document).ready(function() {
+  Webflow.require('slider').redraw();
+});
+
     // "Try for free" button
     document.getElementById('try-for-free').addEventListener('click', function() {
         var popup = document.getElementById('popup-menu');
