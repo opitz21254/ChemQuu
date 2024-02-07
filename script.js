@@ -33,6 +33,8 @@ window.onload = function() {
     });
 };
 
+
+
 document.addEventListener("DOMContentLoaded", function() {
     // Function to move to the next item in the carousel
     function moveToNextImage() {
