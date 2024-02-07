@@ -1129,27 +1129,11 @@
                         </div>
                     </div>
                 </div>
-<!--                 propup -->
-                <script src="script.js"> // script.js
-                    document.addEventListener('DOMContentLoaded', function() {
-                        var popup = document.getElementById('popup');
-                        var triggerPopup = document.getElementById('triggerPopup');
-                        var closeButton = document.querySelector('.close');
-                    
-                        triggerPopup.onclick = function() {
-                            popup.style.display = 'block';
-                        }
-                    
-                        closeButton.onclick = function() {
-                            popup.style.display = 'none';
-                        }
-                    
-                        window.onclick = function(event) {
-                            if (event.target == popup) {
-                                popup.style.display = 'none';
-                            }
-                        }
-                    }); 
-                </script>
-            </div>
-        </div>
+...
+          </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://assets.website-files.com/5ff7c807d65e6f24ae2a3369/js/webflow.4e3e6f4e3.js"></script>
+      <script src="script.js"></script>
+  </body>
+</html>
